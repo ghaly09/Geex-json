@@ -126,6 +126,11 @@
           "item_id": 1,
           "cart": true
         },
+        "delete_checkout": {
+          "item_type": "voucher game",
+          "item_id": 1,
+          "checkout": true
+        },
         "response": {
           "status_code": 12,
           "status_message": "The item/record was updated successfully."
