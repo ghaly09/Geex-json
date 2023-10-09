@@ -1,0 +1,85 @@
+{
+  "cart": {
+    "method": {
+      "POST": {
+        "add_cart": {
+          "item_type": "voucher game",
+          "item_id": 1,
+          "variant_id": 1,
+          "note": "optional, kalo gak ada jadi string kosong aja",
+          "count": 5,
+          "cart": true
+        },
+        "response": {
+          "status_code": 200,
+          "status_message": "Success."
+        }
+      },
+      "DELETE": {
+        "delete_cart": {
+          "item_type": "voucher game",
+          "item_id": 1,
+          "cart": true
+        },
+        "response": {
+          "status_code": 200,
+          "status_message": "The item/record was updated successfully."
+        }
+      },
+      "GET": {
+        "response": {
+          "cart_items": {
+            "page": 1,
+            "results": [
+              {
+                "id": 1,
+                "category": "game",
+                "original_title": "Mobile Legend",
+                "image": {
+                  "thumbnail": "https://imageItem.svg"
+                },
+                "rating": { "rate": 5.0, "count": 56 },
+                "total_sells": 100,
+                "price": 225000,
+                "currency_code": "IDR",
+                "discount": {
+                  "status": true,
+                  "amount": "ini type-nya number, cth: 20% jadi 0.2"
+                },
+                "ever_purchased": { "status": true, "count": 5 },
+                "stock_product": 35,
+                "variant_id": 2,
+                "note": "",
+                "count": 25,
+                "seller_shop": "Toko GameKu"
+              },
+
+              {
+                "id": 2,
+                "category": "voucher",
+                "original_title": "GTA V",
+                "image": {
+                  "thumbnail": "https://imageItem.svg"
+                },
+                "rating": { "rate": 5.0, "count": 56 },
+                "total_sells": 100,
+                "price": 225000,
+                "currency_code": "IDR",
+                "discount": {
+                  "status": true,
+                  "amount": "ini type-nya number, cth: 20% jadi 0.2"
+                },
+                "ever_purchased": { "status": true, "count": 5 },
+                "stock_product": 35,
+                "variant_id": 3,
+                "note": "",
+                "count": 30,
+                "seller_shop": "Toko GameKu"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}
