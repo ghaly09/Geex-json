@@ -6,12 +6,12 @@
         "response": {
           "isSuccess": {
             "success": true,
-            "status_code": 1,
+            "status_code": 200,
             "status_message": "Success.",
             "token": "adwbdawta9wfyawuf09auwgagwhd"
           },
           "isFailed": {
-            "status_code": 7,
+            "status_code": 401,
             "status_message": "Invalid Account.",
             "success": false
           }
@@ -29,20 +29,10 @@
       "rememberMe": "boolean"
     },
     "register": {
-      "firstName": "john",
-      "lastName": "doe",
-      "username": "johnBeast",
-      "email": "example@gmail.com",
-      "password": "john123",
-      "confirmPassword": "john123"
+      "emailOrPhone": "example@email.com/082110213802"
     },
     "register:types": {
-      "firstName": "string",
-      "lastName": "string",
-      "username": "string",
-      "email": "string",
-      "password": "string",
-      "confirmPassword": "string"
+      "emailOrPhone": "string | number"
     }
   },
 
@@ -54,12 +44,12 @@
           "response": {
             "isSuccess": {
               "success": true,
-              "status_code": 1,
+              "status_code": 200,
               "status_message": "Success.",
               "verification_code": "123456"
             },
             "isFailed": {
-              "status_code": 7,
+              "status_code": 401,
               "status_message": "invalid verification Email.",
               "success": false
             }
@@ -76,12 +66,12 @@
             "response": {
               "isSuccess": {
                 "success": true,
-                "status_code": 1,
+                "status_code": 200,
                 "status_message": "Success.",
                 "verification_code": "123456"
               },
               "isFailed": {
-                "status_code": 7,
+                "status_code": 401,
                 "status_message": "invalid verification Number Phone.",
                 "success": false
               }
@@ -94,48 +84,6 @@
 
   "product_items": {
     "method": {
-      "POST": {
-        "add_favorite": {
-          "item_type": "voucher game",
-          "item_id": 1,
-          "favorite": true
-        },
-        "add_cart": {
-          "item_type": "voucher game",
-          "item_id": 1,
-          "cart": true
-        },
-        "add_checkout": {
-          "item_type": "voucher game",
-          "item_id": 1,
-          "checkout": true
-        },
-        "response": {
-          "status_code": 1,
-          "status_message": "Success."
-        }
-      },
-      "DELETE": {
-        "delete_favorite": {
-          "item_type": "voucher game",
-          "item_id": 1,
-          "favorite": true
-        },
-        "delete_cart": {
-          "item_type": "voucher game",
-          "item_id": 1,
-          "cart": true
-        },
-        "delete_checkout": {
-          "item_type": "voucher game",
-          "item_id": 1,
-          "checkout": true
-        },
-        "response": {
-          "status_code": 12,
-          "status_message": "The item/record was updated successfully."
-        }
-      },
       "GET": {
         "response": {
           "product_items": {
@@ -146,6 +94,10 @@
                 "category": "game",
                 "original_title": "Mobile Legend",
                 "description": "Mobile Legends: Bang Bang is a mobile multiplayer online battle arena game developed and published by Moonton, a subsidiary of ByteDance. Released in 2016, the game grew in popularity; most prominently in Southeast Asia.",
+                "detail_product": {
+                  "detail": "semua isi detail",
+                  "more_info": "info lainnya terkait apapun tetntang produk"
+                },
                 "image": {
                   "thumbnail": "https://imageItem.svg",
                   "list_images": [
@@ -171,26 +123,22 @@
                     {
                       "variant_id": 1,
                       "available": true,
-                      "name": "Diamond",
-                      "amount": 500
+                      "name": "Diamond 500"
                     },
                     {
                       "variant_id": 2,
                       "available": true,
-                      "name": "Diamond",
-                      "amount": 1000
+                      "name": "Diamond 1000"
                     },
                     {
                       "variant_id": 3,
                       "available": true,
-                      "name": "Diamond",
-                      "amount": 1500
+                      "name": "Diamond 1500"
                     },
                     {
                       "variant_id": 4,
                       "available": false,
-                      "name": "Diamond",
-                      "amount": 2000
+                      "name": "Diamond 2000"
                     }
                   ]
                 },
@@ -204,6 +152,10 @@
                 "category": "voucher",
                 "original_title": "GTA V",
                 "description": "Grand Theft Auto V is a 2013 action-adventure game developed by Rockstar North and published by Rockstar Games. It is the seventh main entry in the Grand Theft Auto series.",
+                "detail_product": {
+                  "detail": "semua isi detail",
+                  "more_info": "info lainnya terkait apapun tetntang produk"
+                },
                 "image": {
                   "thumbnail": "https://imageItem.svg",
                   "list_images": [
@@ -229,26 +181,22 @@
                     {
                       "variant_id": 1,
                       "available": true,
-                      "name": "Diamond",
-                      "amount": 500
+                      "name": "Diamond 500"
                     },
                     {
                       "variant_id": 2,
                       "available": true,
-                      "name": "Diamond",
-                      "amount": 1000
+                      "name": "Diamond 1000"
                     },
                     {
                       "variant_id": 3,
                       "available": true,
-                      "name": "Diamond",
-                      "amount": 1500
+                      "name": "Diamond 1500"
                     },
                     {
                       "variant_id": 4,
                       "available": false,
-                      "name": "Diamond",
-                      "amount": 2000
+                      "name": "Diamond 2000"
                     }
                   ]
                 },
@@ -258,19 +206,10 @@
               }
             ]
           },
-          "favorite_items": {},
-          "cart_items": {},
+
           "checkout_items": {}
         }
       }
     }
-  },
-
-  "popular_items": {},
-
-  "recommand_items": {},
-
-  "reviews": {},
-
-  "profile": {}
+  }
 }
