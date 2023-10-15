@@ -47,7 +47,7 @@
                   "amount": "ini type-nya number, cth: 20% jadi 0.2"
                 },
                 "ever_purchased": { "status": true, "count": 5 },
-                "stock_product": 35,
+                "stock_product": 20,
                 "variant_id": 2,
                 "note": "",
                 "count": 25,
@@ -70,7 +70,7 @@
                   "amount": "ini type-nya number, cth: 20% jadi 0.2"
                 },
                 "ever_purchased": { "status": true, "count": 5 },
-                "stock_product": 35,
+                "stock_product": 15,
                 "variant_id": 3,
                 "note": "",
                 "count": 30,
