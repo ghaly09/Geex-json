@@ -116,32 +116,34 @@
                   "amount": "ini type-nya number, cth: 20% jadi 0.2"
                 },
                 "ever_purchased": { "status": true, "count": 5 },
-                "stock_product": 35,
-                "variant_product": {
-                  "stock": 3,
-                  "variants": [
-                    {
-                      "variant_id": 1,
-                      "available": true,
-                      "name": "Diamond 500"
-                    },
-                    {
-                      "variant_id": 2,
-                      "available": true,
-                      "name": "Diamond 1000"
-                    },
-                    {
-                      "variant_id": 3,
-                      "available": true,
-                      "name": "Diamond 1500"
-                    },
-                    {
-                      "variant_id": 4,
-                      "available": false,
-                      "name": "Diamond 2000"
-                    }
-                  ]
-                },
+                "stock_product": 45,
+                "variant_product": [
+                  {
+                    "variant_id": 1,
+                    "available": true,
+                    "name": "Diamond 500",
+                    "stock": 20
+                  },
+                  {
+                    "variant_id": 2,
+                    "available": true,
+                    "name": "Diamond 1000",
+                    "stock": 10
+                  },
+                  {
+                    "variant_id": 3,
+                    "available": true,
+                    "name": "Diamond 1500",
+                    "stock": 15
+                  },
+                  {
+                    "variant_id": 4,
+                    "available": false,
+                    "name": "Diamond 2000",
+                    "stock": 0
+                  }
+                ],
+
                 "seller_shop": "Toko GameKu",
                 "review_count": 20,
                 "review_id": "type: number, *ini bisa dibuatkan api khususnya sendiri buat nampung semua reviews"
@@ -174,32 +176,33 @@
                   "amount": "ini type-nya number, cth: 20% jadi 0.2"
                 },
                 "ever_purchased": { "status": true, "count": 5 },
-                "stock_product": 35,
-                "variant_product": {
-                  "stock": 3,
-                  "variants": [
-                    {
-                      "variant_id": 1,
-                      "available": true,
-                      "name": "Diamond 500"
-                    },
-                    {
-                      "variant_id": 2,
-                      "available": true,
-                      "name": "Diamond 1000"
-                    },
-                    {
-                      "variant_id": 3,
-                      "available": true,
-                      "name": "Diamond 1500"
-                    },
-                    {
-                      "variant_id": 4,
-                      "available": false,
-                      "name": "Diamond 2000"
-                    }
-                  ]
-                },
+                "stock_product": 45,
+                "variant_product": [
+                  {
+                    "variant_id": 1,
+                    "available": true,
+                    "name": "Diamond 500",
+                    "stock": 20
+                  },
+                  {
+                    "variant_id": 2,
+                    "available": true,
+                    "name": "Diamond 1000",
+                    "stock": 10
+                  },
+                  {
+                    "variant_id": 3,
+                    "available": true,
+                    "name": "Diamond 1500",
+                    "stock": 15
+                  },
+                  {
+                    "variant_id": 4,
+                    "available": false,
+                    "name": "Diamond 2000",
+                    "stock": 0
+                  }
+                ],
                 "seller_shop": "Toko GameKu",
                 "review_count": 20,
                 "review_id": "type: number, *ini bisa dibuatkan API khususnya sendiri buat nampung semua reviews"
