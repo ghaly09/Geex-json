@@ -1,0 +1,66 @@
+{
+  "banners": {
+    "home": [
+      {
+        "id": 1,
+        "name": "Valorant",
+        "image": "https://imageItem1.svg",
+        "directLink": ""
+      },
+      {
+        "id": 2,
+        "name": "Mobile Legends",
+        "image": "https://imageItem2.svg",
+        "directLink": ""
+      },
+      {
+        "id": 3,
+        "name": "Genshin Impact",
+        "image": "https://imageItem3.svg",
+        "directLink": ""
+      }
+    ],
+
+    "seller_shop": [
+      {
+        "id": 1,
+        "name": "promo01",
+        "image": "https://imageItem1.svg",
+        "directLink": ""
+      },
+      {
+        "id": 2,
+        "name": "promo02",
+        "image": "https://imageItem2.svg",
+        "directLink": ""
+      },
+      {
+        "id": 3,
+        "name": "promo03",
+        "image": "https://imageItem3.svg",
+        "directLink": ""
+      }
+    ],
+
+    "game_choice": [
+      {
+        "id": 1,
+        "name": "game01",
+        "image": "https://imageItem1.svg",
+        "directLink": ""
+      },
+      {
+        "id": 2,
+        "name": "game02",
+        "image": "https://imageItem2.svg",
+        "directLink": ""
+      },
+      {
+        "id": 3,
+        "name": "game03",
+        "image": "https://imageItem3.svg",
+        "directLink": ""
+      }
+    ]
+  }
+}
